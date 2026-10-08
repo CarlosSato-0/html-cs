@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#Cabecalho {
+    background: linear-gradient(to bottom,#2ecc71, #1e8449 );
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    box-shadow: 0 4px 6px black;
+}
+
+.conteudo-cabecalho {
+    padding: 0 20px 40px 20px;
+}
+
+#Cabecalho h1{
+    font-family: "Orbitron";
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.397);
+}
+
+#Cabecalho p {
+    font-size: 1rem;
+    font-weight: 300;
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.4;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.342);
+}
+
+.menu{
+    background-color: rgba(0,0,0,0.2);
+    text-align: left;
+    padding: 10px 40px;
+}
+
+.menu ul{
+    list-style: none; /* Remove os pontos da lista */
+    display: flex; /* Coloca os itens um ao lado do outro */
+    gap: 25px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.95rem;
+    transition: opacity 0.2s;
+
+}
+
+.menu li a:hover {
+    opacity: 0.7;
+}
+
+body {
+    background-color: #56c986;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.conteudo {
+    background-color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.226)
+}
+
+.conteudo h1{
+    font-family: "Anta";
+    color: #176337;
+}
+
+.conteudo h2{
+    font-family: "Anta";
+    background-color: #2ecc7048;
+    color: #176337;
+    margin-top: 20px;
+    padding: 0 0 0 5px;
+}
+
+.conteudo p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+    padding: 10px 0;
+    line-height: 1.6;
+
+
+}
+
+a {
+    color: #1e8449;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a[target="_blank"]::after{
+    content: "🔗";
+    font-size: 0.85rem;
+}
+
+.conteudo picture img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+
+.video-container {
+    background-color: #16723c;
+    padding: 20px;
+    border: 5px solid #176337;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.redondo {
+    background-color: #5fca8c;
+    margin: 30px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.151);
+    overflow: hidden;
+}
+
+.redondo h3 {
+    background-color: #176337;
+    color: white;
+    padding-left: 10px 15px;
+    margin: 0;
+}
+
+.redondo p {
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.lista {
+    display:flex;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+
+.lista ul {
+    list-style: '✔';
+    list-style-position: inside;
+}
+
+.lista li {
+    padding: 4px 0;
+    font-size: 0.95rem;
+}
